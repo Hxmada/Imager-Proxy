@@ -1,4 +1,4 @@
-# HabboAI Imager Proxy
+# Imager Proxy
 
 ## Requirements:
 - ``NodeJS``
