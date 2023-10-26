@@ -113,15 +113,11 @@ To hold a certain drink, use an equal separator with the hand item id. You can o
 # Setting up with IIS
 
 ### Application Request Routing
-
 To allow the imager to be rendered through our domain.
 
 - The first thing we will have to do, to achieve this is downloading the "**Application Request Routing**" extension for IIS - You can download the extension, by visiting: https://www.iis.net/downloads/microsoft/application-request-routing
-
 - Once the extension has been downloaded, go through the setup process and re-open your "**Internet Information Services**" application - you should then be able to see the "**Application Request Routing Cache**" module if you double click on the "**VMIxxxx**"
-
 - Once you're able to see your "**Application Request Routing Cache**" module, double click it and at the right side, you should see "**Server Proxy Settings...**" Click on that and then tick the "**Enable proxy**"
-
 - Once ticked, click "**Apply**" on the right side.
 
 --- 
