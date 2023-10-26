@@ -2,7 +2,7 @@
 
 Avatar animations fully work on discord make sure to use `&.gif` or `img_format=.gif` in the end
 
-# Features:
+## Features:
 - Get figure by `username`
 - Get figure by `userID`
 - Get figure by `look`
