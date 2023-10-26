@@ -47,5 +47,5 @@ app.use(async (req, res, next) => {
 });
 
 app.listen(PORT, () => {
-  console.log(chalk.bgGreen.white('[READY]') + ` -> ` + chalk.cyan(`Imager proxy started running on port: - ${PORT}`));
+  console.log(chalk.bgGreen.white('[READY]') + ` -> ` + chalk.cyan(`Imager proxy started running at: - http://127.0.0.1:${PORT}`));
 });
