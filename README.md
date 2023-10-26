@@ -1,5 +1,7 @@
 # Imager Proxy
 
+Avatar animations fully work on discord make sure to use `&.gif` or `img_format=.gif` in the end
+
 ## Requirements:
 - ``NodeJS``
 - ``Billson Nitro Imager`` - https://github.com/billsonnn/nitro-imager [Optional]
