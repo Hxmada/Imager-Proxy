@@ -25,7 +25,7 @@ Edit config in `/_inc/config.js`
 ```js
 module.exports = {
   /* ---------------------- Main Config ---------------------- */
-  imagerURL: 'https://127.0.0.1:3030/?figure=', // Actual Imager URL
+  imagerURL: 'http://127.0.0.1:3030/?figure=', // Actual Imager URL
   userIDURL: '/userid/:userID', // UserID URL
   usernameURL: '/username/:username', // Username URL
   figureURL: '/figure/:look', // Figure URL
