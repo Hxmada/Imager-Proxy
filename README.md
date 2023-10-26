@@ -2,6 +2,11 @@
 
 Avatar animations fully work on discord make sure to use `&.gif` or `img_format=.gif` in the end
 
+# Features:
+- Get figure by `username`
+- Get figure by `userID`
+- Get figure by `look`
+
 ## Requirements:
 - ``NodeJS``
 - ``Billson Nitro Imager`` - https://github.com/billsonnn/nitro-imager [Optional]
