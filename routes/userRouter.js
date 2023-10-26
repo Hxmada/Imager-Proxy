@@ -20,15 +20,7 @@ userRouter.get('/', async (req, res) => {
 
         const secureUsername = secure(username);
 
-        const [getuserID] = await dbConnection.promise().query('SELECT `id` FROM `users` WHERE `username` = ? LIMIT 1', [secureUsername]);
-
-        if (!getuserID[0] || !getuserID[0].id) {
-            return res.send('This user does not exist!');
-        }
-        
-        const secureUserID = secure(getuserID[0].id);
-
-        const [fig] = await dbConnection.promise().query('SELECT `look` FROM `users` WHERE `id` = ? LIMIT 1', [secureUserID]);
+        const [fig] = await dbConnection.promise().query('SELECT `look` FROM `users` WHERE `username` = ? LIMIT 1', [secureUsername]);
 
         if (!fig || fig.length === 0) {
             return res.send('This user does not exist!');
