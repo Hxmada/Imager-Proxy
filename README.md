@@ -51,6 +51,8 @@ Their are a few different options you may pass as URL parameters to generate fig
 | frame_num      | 0       | The frame number to render                                          |
 | img_format     | png     | A value of `png` or `gif`. Gif will render all frames of the figure |
 
+**Note**: `You can use &.gif or &.png or &img_format=.gif in the end of the file if you are using discord and want to see the animation`
+
 ---
 ### Actions
 
