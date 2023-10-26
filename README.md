@@ -17,7 +17,7 @@ Edit config in `/_inc/config.js`
 ```js
 module.exports = {
   /* ---------------------- Main Config ---------------------- */
-  imagerURL: 'https://imager.zipto.net/?figure=', // Actual Imager URL
+  imagerURL: 'https://127.0.0.1:3030/?figure=', // Actual Imager URL
   usernameURL: '/username/:username', // Username URL
   figureURL: '/figure/:look', // Figure URL
   port: 3930, // Port to run your Imager proxy
