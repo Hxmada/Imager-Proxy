@@ -140,4 +140,4 @@ To allow the imager to be rendered through our domain.
 - The last thing you'll have to do for the reverse proxy to be done is, scroll down until you see the "**Rewrite URL:**" field, inside of this field write the following: "**http://127.0.0.1:3930/{R:1}**" 
 - Once everything is set click "**Apply**" in the top right corner
 
-*Credits to **Dennis** for writing down the IIS tutorial*
+*Credits to **Dennis [Object]** for writing down the IIS tutorial*
